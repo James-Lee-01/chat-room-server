@@ -1,0 +1,9 @@
+{
+  "name": "chatroom-test-server",
+  "version": "1.0.0",
+  "main": "chatRoomServer.js",
+  "scripts": {
+    "start": "node chatRoomServer.js"
+  },
+  "dependencies": {}
+}
