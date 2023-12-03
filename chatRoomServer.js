@@ -7,7 +7,7 @@ const server = http.createServer(app);
 // 設定 CORS 配置
 const io =  new Server(server, {
   cors: {
-    origin: 'https://chat-room-client-two.vercel.app/', // 允許來自這個來源的請求
+    origin: 'https://chat-room-client-two.vercel.app', // 允許來自這個來源的請求
     // origin: 'http://localhost:3000', // 允許來自這個來源的請求
     methods: ["GET", "POST"],
     credentials: true, // 如果需要傳送 cookies，請設定為 true
